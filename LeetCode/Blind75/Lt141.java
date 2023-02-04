@@ -18,11 +18,11 @@ public class Lt141 {
     //when first pointer points to the next pointer, and the second pointer points to the same pointer and the first pointer return true 
     //because there is a cycle as the second pointer which is further points to the same value as the first pointer
     public static boolean hasCycle(ListNode head) {
-        ListNode slow = head, fast = head;
+        ListNode slow = head, fast = head; //both nodes start at the head node 
   
-        while (fast != null && fast.next != null) {
-          slow = slow.next;
-          fast = fast.next.next;
+        while (fast != null && fast.next != null) { //if fast is not null and the next node to fast is not null
+          slow = slow.next; //slow goes to next node
+          fast = fast.next.next; //fast jump to the 2nd next node until both slow and fast are equal
           
           if (slow == fast) 
               return true;
