@@ -46,7 +46,7 @@ public class romanToInt {
             }
 
         
-        return sum+nums[nums.length-1]; //return the sum+ variable at last index-1
+        return sum+nums[nums.length-1]; //return the sum variable at last index-1
         
     }
 }
