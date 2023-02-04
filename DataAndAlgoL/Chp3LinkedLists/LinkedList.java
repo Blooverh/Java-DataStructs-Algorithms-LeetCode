@@ -7,6 +7,8 @@ package DataAndAlgoL.Chp3LinkedLists;
 public class LinkedList{
     public int length; //length of linked list
     ListNode head; //only field in the class it holds the head of the list 
+    /* */
+    ListNode ptrdiff; // This pointer is solely used for unrolled lists.
 
     //default constructor
     public LinkedList(){
