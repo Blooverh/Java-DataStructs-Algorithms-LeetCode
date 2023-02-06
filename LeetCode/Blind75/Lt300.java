@@ -1,6 +1,5 @@
 package Blind75;
 
-import java.util.Arrays;
 
 /*
  * Given an integer array nums, return the length of the longest strictly increasing subsequence

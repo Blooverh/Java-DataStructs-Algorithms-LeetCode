@@ -1,5 +1,5 @@
 package DataAndAlgoL.Chp3LinkedLists;
-
+//Intersection of 2 linked lists 
 public class Problem24 {
     public static void main(String[] args) {
         

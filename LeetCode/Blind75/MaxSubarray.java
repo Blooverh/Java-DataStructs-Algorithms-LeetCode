@@ -1,6 +1,5 @@
 package Blind75;
 
-import java.util.Arrays;
 
 public class MaxSubarray {
     public static void main(String[] args) {

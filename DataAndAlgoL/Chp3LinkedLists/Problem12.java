@@ -1,6 +1,6 @@
 package DataAndAlgoL.Chp3LinkedLists;
 
-import org.w3c.dom.Node;
+
 
 /*Check whether the given linked list is null-terminated or not
  * If there is a cycle find the start node of the loop

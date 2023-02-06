@@ -1,6 +1,6 @@
 package DataAndAlgoL.Chp3LinkedLists;
 
-import java.util.List;
+
 
 public class Problem2 {
     public static void main(String[] args) {
