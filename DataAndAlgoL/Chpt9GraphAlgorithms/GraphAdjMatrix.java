@@ -1,11 +1,11 @@
 package DataAndAlgoL.Chpt9GraphAlgorithms;
-//below class reads an undirected graph
-public class Graph {
+//Adjacency Matrix representation
+public class GraphAdjMatrix {
     public boolean adjMatrix[][];
     public int vertexCount;
 
     //constructor
-    public Graph(int vertexCount){
+    public GraphAdjMatrix(int vertexCount){
         this.vertexCount= vertexCount;
         adjMatrix= new boolean[vertexCount][vertexCount]; //boolean 2-d array as a matrix with a max amount o VxV vertices
     }
