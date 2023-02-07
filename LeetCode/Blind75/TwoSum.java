@@ -22,9 +22,9 @@ public class TwoSum {
     
     public static int[] twoSum(int[] nums, int target){
         int[] result= new int[2]; //array that will store both numbers 
-        Map<Integer, Integer> map= new HashMap<Integer, Integer>(); 
+        Map<Integer, Integer> map= new HashMap<Integer, Integer>(); //will store the value at index as key and value as index so we can fetch later if there is a key that contains the difference between target and a number in the array
         for(int i=0; i< nums.length; i++){
-            if(map.containsKey(target-nums[i])){ //
+            if(map.containsKey(target-nums[i])){ // there is a key in map where target - nums[i] exist 
                 result[1]=i;
                 result[0]=map.get(target-nums[i]);
                 return result;

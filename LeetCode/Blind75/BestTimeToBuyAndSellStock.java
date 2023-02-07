@@ -13,8 +13,8 @@ public class BestTimeToBuyAndSellStock {
             return 0;
         }
 
-        int lowestValDay= Integer.MAX_VALUE;
-        int profit=0;
+        int lowestValDay= Integer.MAX_VALUE; //current lowest value day
+        int profit=0; 
         int profitIfSoldToday=0;
         
         for(int i=0; i< prices.length; i++){ 
