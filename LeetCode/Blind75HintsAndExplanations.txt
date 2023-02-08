@@ -1,0 +1,31 @@
+BLIND 75
+
+ARRAY QUESTIONS:
+*/------------------------------------------------------------------\*
+LT1. TWO SUM
+Question: 
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+
+Example: 
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+Algorithm:
+Since return value is an int array that stores 2 indices, create result array 
+Create hashmap that will store key as the value at index and value and the index (k,v) = (arr[i], i)
+for loop to iterate O(n) i through the parameter array known as nums[] 
+if a key with value target - nums[i] exists: where target is a paremater of the method in which we want the 2 number in nums[] to add to.
+    result[1] = current index 
+    result[0] = value where key is target - nums[i]
+
+if the statements doesn't happen 
+put in hashmap current index where (k,v) =(nums[i], i) 
+after iterating through all the indices return array result
+*/-------------------------------------------------------------------------\*
+LT121. Best Time to Buy and Sell Stock
+Question:
+
+Example: 
