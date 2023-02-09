@@ -1,5 +1,6 @@
 package DataAndAlgoL.Chpt9GraphAlgorithms;
 
+import java.util.Queue;
 import java.util.Stack;
 
 class Vertex{
@@ -10,15 +11,16 @@ class Vertex{
         visited=false;
     }
 }
-public class DFSGraph {
+public class DFSandBFSGraph {
     final int maxVertices=20; //max number of vertices in the graph
     Vertex[] vertexList; //array of vertices 
     int[][] adjMatrix; //matrix that will hold the vertices 
-    int vertexCount;
-    Stack theStack;
+    static int vertexCount;
+    Stack theStack; //for dfs
+    Queue theQueue;
 
 
-    public DFSGraph(){
+    public DFSandBFSGraph(){
         vertexList= new Vertex[maxVertices]; //new array of vertices of size maxVertices (20)
         adjMatrix= new int[maxVertices][maxVertices];// matrix that will contain the vertices with matrix size 20x20 
         vertexCount=0; 
@@ -65,6 +67,26 @@ public class DFSGraph {
         for(int i=0; i<vertexCount; i++){
             vertexList[i].visited=false;
         }
+    }
+
+    public void bfs(){
+        vertexList[0].visited=true; //first vertex assign visited in vertexList 
+        displayVertex(0); //displays the first vertex 
+        theQueue.add(0); //inserts 1st vertex in queue so we can go to next vertex and explore
+        int v2;
+        while(!theQueue.isEmpty()){
+            int v1= (int) theQueue.remove();
+            while((v2=getAdjUnvisitedVertex(v1)) !=1){
+                vertexList[v2].visited=true;
+                displayVertex(v2);
+                theQueue.add(v2);
+            }
+        }
+
+        for(int j=0; j< vertexCount; j++){
+            vertexList[j].visited=false;
+        }
+
     }
 
     public int getAdjUnvisitedVertex(int v){

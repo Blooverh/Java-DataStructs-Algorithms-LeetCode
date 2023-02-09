@@ -127,7 +127,7 @@ public class Graph {
             visited[i] = false;
     }
 
-    //ALGORITHM IMPORTANT PART
+    //ALGORITHM IMPORTANT PART DFS ALGORITHM 
     public void dfs(){
         //visit nodes using a stack to store "to visit" nodes 
         Stack<Integer> s= new Stack<>();
@@ -151,11 +151,36 @@ public class Graph {
         }
     }
 
+    //BFS ALGORITHM IMPORTANT 
+    public void bfs(){
+        Queue<Integer> q = new LinkedList<>(); //BFS USES QUEUE DATA SRUCTURE
+        clearVisited();
+        q.add(0);
+
+        //LOOP AS LONG AS THERE IS AN ACTIVE NODE
+        while(!q.isEmpty()){
+            int nextNode =q.remove(); // NEXT NODE TO VISIT
+            if(!visited[nextNode]){
+                visited[nextNode]=true; //MARK NODE/VERTEX AS VISITED
+                System.out.println("nextNode= "+nextNode); //PRINT CURRENT NODE STARTING FROM FIRST NODE/VERTEX
+                for(int i=0; i< V; i++){
+                    if(adjMatrix[nextNode][i] ==true && !visited[i]){ //IF NEXTNODE ON THE SAME ROW BUT NEXT COLUMN IS TRUE AND NOT VISITED ADD THAT NODE TO THE QUEUE TO EXPLORE THE NEXT VERTICES
+                        q.add(i);
+                    }
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        int V =10;
-        int E =13;
+        int V =5;
+        int E =7;
         Graph G= new Graph(V,E);
         System.out.println(G.toString());
+        System.out.println("DFS ALGORITHM");
         G.dfs();
+        System.out.println();
+        System.out.println("BFS ALGORITHM");
+        G.bfs();
     }
 }
