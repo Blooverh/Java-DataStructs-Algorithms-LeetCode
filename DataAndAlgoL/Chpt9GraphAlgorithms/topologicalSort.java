@@ -12,8 +12,8 @@ public class topologicalSort {
     //     int v, w;
 
     //     for(int i =0; i< DFSandBFSGraph.vertexCount; i++){
-    //         if(indegree[v]==0){
-    //             Q.deQueue(v);
+    //         if(indegree[i]==0){
+    //             Q.deQueue(i); //if indegree is 0 remove those vertices from queue (dequeue the vertices) 
     //         }
     //     }
 
@@ -21,7 +21,7 @@ public class topologicalSort {
     //         v=Q.deQueue();
     //         topologicalOrder[v]=counter++;
     //         for each w adjacent to v
-    //             if(--indegree[w]==0){
+    //             if(--indegree[w]==0){ //decrement indegree of w (adjacent vertex), if that indegree is 0, enqueue vertex to queue
     //                 Q.enQueue(w);
     //             }
     //     }
