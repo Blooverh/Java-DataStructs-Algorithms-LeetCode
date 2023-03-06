@@ -20,3 +20,32 @@
         Has high complexity time and is too Simplest
         ** Only significant advantage of bubble sort is detecting whether input list is sorted or not 
         
+    ** SELECTION SORT
+        *** Works well for small files. Used to sort very large values with very small keys. Because selecyion is made based on keys and swaps are made only when required 
+            Advantages: 
+                Easy to implement 
+                in-place sort (requires no additional storage space)
+            Disadvantages:
+                does not scale well O(n^2)
+        *** Algorithm used as:
+            1. finding the minimum value in the list 
+            2. swap it with the value in the current position
+            3. repeat process for all elements until the entire array is sorted
+    
+    ** INSERTION SORT 
+        simple and efficient comparison sort. 
+        ** Each iteration removes an element from the input data and inserts it into the correct position in the list being sorted. 
+            ** The choice of the element being removed from the input is random and this process is repeated until all elements are sorted.
+        ** ADVANTAGES:
+            simple implementation 
+            efficient for small data
+            adaptive: if the input list is presorted [may not be completely] the insertions sort takes O(n+d), where d is the number of inversions.
+            Pratically more efficient than selection sort and bubble sort, even tho all of them have O(n^2) worst case complexity
+            stable: maintains relative order of input data if the keys are the same
+            in-place: it requires only a constant  amount O(1) of additional memory space 
+            Online: insertion sort can sort the list as it receives it
+        ** ALGORITHM:
+            - Every repetition of insertion removes an element from the input data, and inserts it into the correct position in the already sorted list until no input elements remain.
+            - Sorting is typically done in-place. The resulting array after k iterations has the property where the first k+1 entries are sorted 
+
+PAGE -> 514
