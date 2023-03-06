@@ -1,0 +1,14 @@
+* Sorting Algorithms
+    >> Arranges the elements of a list in a certain order (descending or ascending)
+    Output is a permutation or reordering of the input
+    ** Often used for database algorithms and searches
+
+    * Classification of sorting algorithms 
+        ** By number of comparisons
+            Best case is O(nlogn) and worst case is O(n^2)
+    
+    * Internal sort:
+        sort algorithms that use main memory exclusively during the sort called internal sorting. This alfgorithm assummes high speed random access to all memory
+
+    * External Sort:
+        sorting algorithms that use external memory, during the sort.
