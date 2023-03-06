@@ -12,3 +12,11 @@
 
     * External Sort:
         sorting algorithms that use external memory, during the sort.
+
+    ** BUBBLE SORT
+        Simplest sorting algorithm.
+        *** Works by iterating the input array from the 1st element to the last, comparing each pair of elements and swapping them if needed.
+        Bubble sort continues its iterations until no more swaps are needed.
+        Has high complexity time and is too Simplest
+        ** Only significant advantage of bubble sort is detecting whether input list is sorted or not 
+        
