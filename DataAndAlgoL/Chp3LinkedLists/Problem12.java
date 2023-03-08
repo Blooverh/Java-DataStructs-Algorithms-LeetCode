@@ -4,6 +4,8 @@ package DataAndAlgoL.Chp3LinkedLists;
 
 /*Check whether the given linked list is null-terminated or not
  * If there is a cycle find the start node of the loop
+ * 
+ * OBJECTIVE IS TO RETURN THE NODE THAT STARTS THE CYCLE SINCE WE ALREADY KNOW THERE IS CYCLE IN THIS LINKED LIST 
  */
 /*SOlUTION: extended version of Floyd cycle finding algorithm
  * After finding the loop in the
@@ -29,6 +31,7 @@ public class Problem12 {
         ListNode fast=head;
         ListNode slow=head;
         boolean loopExists=false;
+        //We find if a loop exists
         while(fast != null && fast.getNext() != null){ //while linked list is not empty and head is not null
             fast= fast.getNext().getNext();// double jump, travels at 2x rather than once
             slow= slow.getNext();
@@ -38,14 +41,15 @@ public class Problem12 {
             }
         }
 
+        //once we find that the loop exists we start slow pointer from head and iterate once as well as the fast pointer but at its current position
         if(loopExists){ //while loop is is
             slow=head; //get slow back to head 
             while(slow != fast){ //while slow and fast are not equal now both travel one jump at time until both pointers are in the loop at the start loop position
                 slow=slow.getNext();
                 fast=fast.getNext();
             }        
-
-            return fast; //return the pointer where the cycle starts
+            //once both slow and fast are equals, we return the node fast which indicates its the first node that starts the cycle
+            return fast; 
         }
 
         return null;

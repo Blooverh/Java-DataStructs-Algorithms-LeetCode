@@ -1,6 +1,10 @@
 package DataAndAlgoL.Chp3LinkedLists;
 /*
  * Check whether the given linked list is NULL-terminated. If there is a cycle, find the length of the loop.
+ * 
+ * OBJECTIVE IS TO FIND THE AMOUNT OF NODES IN THE LOOP SIDE, 
+ * WE NEED TO FIND IF THERE IS A LOOP. WE CAN START COUNTING HOW MANY NODES ARE IN THE LOOP
+ * BY HAVING ONE OF THE POINTERS TRAVELING THROUGH THE LOOP UNTIL IT FINDS THE OTHER POINTER THAT STAYED STATIONARY 
  */
 /*
  * This solution is also an extension of the basic cycle detection problem. After finding the

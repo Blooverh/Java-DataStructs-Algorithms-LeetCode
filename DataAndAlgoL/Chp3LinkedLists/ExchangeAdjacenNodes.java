@@ -1,6 +1,6 @@
 package DataAndAlgoL.Chp3LinkedLists;
 
-//PROBLEM 40 EXCHANGE THE ADJACEN ELEMENTS
+//PROBLEM 40 EXCHANGE THE ADJACENT ELEMENTS
 public class ExchangeAdjacenNodes {
     public ListNode exchangeAdjNode(ListNode head){
         ListNode temp = new ListNode(0); //temporary node to point to head
