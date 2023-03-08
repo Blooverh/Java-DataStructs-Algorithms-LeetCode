@@ -3,7 +3,7 @@ package DataAndAlgoL.Chp3LinkedLists;
 
 /*
  * Find the Nth Node from the end of a linked list 
- * Return that node once foud
+ * Return that node once found
  */
 public class Problem2_5_6 {
     public static void main(String[] args) {

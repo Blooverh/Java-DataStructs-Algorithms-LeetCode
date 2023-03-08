@@ -32,6 +32,6 @@ public class Problem25_28 {
             }
         }
 
-        return slow;
+        return slow; //return the slow pointer which points to the middle node
     }
 }
