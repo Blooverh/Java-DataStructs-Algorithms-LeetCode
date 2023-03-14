@@ -11,9 +11,9 @@ public class InsertionSort {
     public static void insertionSort(int[] arr){
 
         for(int i=1; i<arr.length; i++){
-            int v=arr[i]; // holds value of key i
-            int j=i-1; // holds key i
-            // while previous key is > and v (current key) and j >=1, assign arr[j] with previous value arr[j-1]
+            int v=arr[i]; // holds value of index i
+            int j=i-1; // holds index i-1
+            // while previous index is > and v (current index value) and j >=1, assign arr[j] with previous value arr[j-1]
             while(arr[j] > v && j >= 0){
                 arr[j+1] = arr[j];
                 j--; // decrement j by 1 to previous position arr[j-1]

@@ -20,20 +20,20 @@ public class Bubblesort {
     }
 
     //O(n) Improved bubble sort Best possible complexity
-    public static void bubbleSort2(int[] arr){
-        int temp;
-        int swapped=1; //flag to check whether its needs to be swapped meaning it is not sorted
-        for(int i= arr.length-1; i>=0 /* && swapped */; i--){
-            swapped=0;
-            for(int j=0; j<=arr.length; j++){
-                if(arr[i] >arr[i+1]){
-                    //swap elements
-                    temp= arr[i];
-                    arr[i]=arr[i+1];
-                    arr[i+1]=temp;
-                    swapped=1;
-                }
-            }
-        }
-    }
+    // public static void bubbleSort2(int[] arr){
+    //     int temp;
+    //     int swapped=1; //flag to check whether its needs to be swapped meaning it is not sorted
+    //     for(int i= arr.length-1; i>=0 /* && swapped */; i--){
+    //         swapped=0;
+    //         for(int j=0; j<=arr.length; j++){
+    //             if(arr[i] >arr[i+1]){
+    //                 //swap elements
+    //                 temp= arr[i];
+    //                 arr[i]=arr[i+1];
+    //                 arr[i+1]=temp;
+    //                 swapped=1;
+    //             }
+    //         }
+    //     }
+    // }
 }

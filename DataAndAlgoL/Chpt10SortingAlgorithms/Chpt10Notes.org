@@ -19,6 +19,7 @@
         Bubble sort continues its iterations until no more swaps are needed.
         Has high complexity time and is too Simplest
         ** Only significant advantage of bubble sort is detecting whether input list is sorted or not 
+        complexity = O(n^2)
         
     ** SELECTION SORT
         *** Works well for small files. Used to sort very large values with very small keys. Because selecyion is made based on keys and swaps are made only when required 
@@ -32,7 +33,7 @@
             2. swap it with the value in the current position
             3. repeat process for all elements until the entire array is sorted
     
-    ** INSERTION SORT 
+    ** INSERTION SORT !! -> WATCH VIDEO ABOUT INSERTION SORT
         simple and efficient comparison sort. 
         ** Each iteration removes an element from the input data and inserts it into the correct position in the list being sorted. 
             ** The choice of the element being removed from the input is random and this process is repeated until all elements are sorted.
@@ -48,4 +49,4 @@
             - Every repetition of insertion removes an element from the input data, and inserts it into the correct position in the already sorted list until no input elements remain.
             - Sorting is typically done in-place. The resulting array after k iterations has the property where the first k+1 entries are sorted 
 
-PAGE -> 514
+    ** SHELL SORT (DIMINISHING INCREMENT SORT)

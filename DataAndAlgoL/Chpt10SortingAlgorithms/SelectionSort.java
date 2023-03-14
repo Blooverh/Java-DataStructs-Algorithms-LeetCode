@@ -13,7 +13,10 @@ public class SelectionSort {
     public static void selectionSort(int[] nums){
         int min; // Stores minimum value in list 
         int temp; // holds values for swappage 
-
+        /*
+         * Called Selection sort because every j iteration selects the minimum value 
+         * to swap with element at i position
+         */
         for(int i=0; i < nums.length-1; i++){
             min=i;
             for(int j= i+1; j< nums.length; j++){ //for each iteration, goes through all the array starting at i and compares j to current min 
