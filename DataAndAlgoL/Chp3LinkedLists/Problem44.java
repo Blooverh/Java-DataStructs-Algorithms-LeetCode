@@ -12,30 +12,30 @@ public class Problem44 {
         
     }
 
-    public ListNode getJosephusPosition(int N, int M){
-        ListNode p;
-        ListNode q;
-        //create circular linked list containing all the players
-        p.setData(1);
+//     public ListNode getJosephusPosition(int N, int M){
+//         ListNode p;
+//         ListNode q;
+//         //create circular linked list containing all the players
+//         p.setData(1);
 
-        q=p;
+//         q=p;
 
-        for(int i=2; i<= N; i++){
-            p=p.getNext();
-            p.setData(i);
-        }
+//         for(int i=2; i<= N; i++){
+//             p=p.getNext();
+//             p.setData(i);
+//         }
 
-        p.setNext(q); // Close the circular linked list by having the last node point to the first
+//         p.setNext(q); // Close the circular linked list by having the last node point to the first
 
-        for(int count=N; count >1; count--){
-            for(int i=0; i<M-1; i++){
-                p=p.getNext();
-                p.setNext(p.getNext().getNext());// remove the eliminated player from the list 
-            }
-        }
+//         for(int count=N; count >1; count--){
+//             for(int i=0; i<M-1; i++){
+//                 p=p.getNext();
+//                 p.setNext(p.getNext().getNext());// remove the eliminated player from the list 
+//             }
+//         }
 
-        return p;
+//         return p;
 
         
-    }
+//     }
 }
