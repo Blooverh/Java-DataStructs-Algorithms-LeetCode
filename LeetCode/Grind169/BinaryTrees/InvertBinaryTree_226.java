@@ -1,7 +1,6 @@
 package Grind169.BinaryTrees;
 
 public class InvertBinaryTree_226 {
-
     
     class TreeNode {
         int val;
