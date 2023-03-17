@@ -50,3 +50,41 @@
             - Sorting is typically done in-place. The resulting array after k iterations has the property where the first k+1 entries are sorted 
 
     ** SHELL SORT (DIMINISHING INCREMENT SORT)
+        >> generalization of insertion sort.
+        *** NOTE -> Insertion sort works efficiently on input that is already almost sorted
+        >> SHELL SORT AKA *N-gap* insertion sort. 
+        ** Instead of comparing only the adjacent pair, shell sort makes several passes and uses various gaps between adjacent elements, ending with the gap of 1 or classical insertion sort 
+        ** Variation used in shell sort is to avoid comparing adjacent elements until the last step of the algorithm, meaning last step of the shell sort is insertion sort algorithm
+        ** Fastes of all O(N^2) algorithms  
+
+    ** MERGE SORT
+        >> Important example of divide and conquer 
+        *** IMPORTANT NOTES:
+            *merging* -> process of combining 2 sorted files to make one bigger sorted file 
+            *selection* -> process of dividing a file into 2 parts: k smallest element and n - k largest elements 
+            *Selection and Merging* -> 2 opposite operations:
+                selection splits the list into 2 lists 
+                merging joins 2 list to make 1 list 
+            *Merge Sort -> is Quick Sort's complement* and accesses the data in sequential order 
+            ** NOTE -> this algorithm is used for sorting a LINKED LIST 
+            ** Insensitive to the initial order of its input 
+            *** NOTE -> Merge sort divides the list into 2 parts, each part is conquered individually.
+            *** Merge sort starts with the small sublists and finishes with the largest list. As a result does not need a stack
+            ** Stable alfgorithm
+
+    ** QUICK SORT 
+        ** Example of divide and conquer algorithm. AKA Paritition Exchange Sort -> Uses recursive calls for sorting elements
+        *** NOTE: One of the famous algorithms among comparison-based sorting algorithms 
+        ** STEPS: 
+            ** DIVIDE: Array[low...high]is partitioned into 2 non-empty subarrays Array[low... pivot] and Array[pivot+1... high] 
+                ** Such that each element of Array[low... high] is less than or equal to each element of Array[pivot+1... high]
+                ** PIVOT index is calculated as part of the partitioning procedure   
+            ** CONQUER:
+                ** The 2 subarrays Array[low... pivot] and Array[pivot+1... high] are sorted by recursive calls 
+        ** ALGORITHM:
+            *** 1. If there are 1 or no elements in the array to be sorted return.
+            *** 2. Pick and element in the array to serve as the PIVOT point. (USUALLY THE LEFT MOST ELEMENT IN THE ARRAY IS USED)
+            *** 3. Split the array into 2 parts- 1 with elements larger than the pivot, other with elements smaller than the PIVOT
+            *** 4. Recursively repeat the algorithm for both halves of the original array 
+            
+    ** HEAP SORT
