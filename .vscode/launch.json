@@ -1,0 +1,700 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellStock",
+            "request": "launch",
+            "mainClass": "Blind75.BestTimeToBuyAndSellStock",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "Blind75.CoinChange",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "Blind75.ContainsDuplicate",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt101",
+            "request": "launch",
+            "mainClass": "Blind75.Lt101",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt104",
+            "request": "launch",
+            "mainClass": "Blind75.Lt104",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt11",
+            "request": "launch",
+            "mainClass": "Blind75.Lt11",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt141",
+            "request": "launch",
+            "mainClass": "Blind75.Lt141",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt152",
+            "request": "launch",
+            "mainClass": "Blind75.Lt152",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt153",
+            "request": "launch",
+            "mainClass": "Blind75.Lt153",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt19",
+            "request": "launch",
+            "mainClass": "Blind75.Lt19",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt20",
+            "request": "launch",
+            "mainClass": "Blind75.Lt20",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt200",
+            "request": "launch",
+            "mainClass": "Blind75.Lt200",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt206",
+            "request": "launch",
+            "mainClass": "Blind75.Lt206",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt300",
+            "request": "launch",
+            "mainClass": "Blind75.Lt300",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt33",
+            "request": "launch",
+            "mainClass": "Blind75.Lt33",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt371",
+            "request": "launch",
+            "mainClass": "Blind75.Lt371",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt73",
+            "request": "launch",
+            "mainClass": "Blind75.Lt73",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubarray",
+            "request": "launch",
+            "mainClass": "Blind75.MaxSubarray",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ProdArrayExceptSelf",
+            "request": "launch",
+            "mainClass": "Blind75.ProdArrayExceptSelf",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "Blind75.TwoSum",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "Blind75.ValidAnagram",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem12",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem12",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem15",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem15",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem16",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem16",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem17",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem17",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem24",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem24",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem25_28",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem25_28",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem29",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem29",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem30",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem30",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem32",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem32",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem34",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem34",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem40",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem40",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem44",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem44",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem7_10",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chp3LinkedLists.Problem7_10",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Bubblesort",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt10SortingAlgorithms.Bubblesort",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt10SortingAlgorithms.HeapSort.HeapSort",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt10SortingAlgorithms.InsertionSort",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt10SortingAlgorithms.MergeSort",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt10SortingAlgorithms.QuickSort",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt10SortingAlgorithms.SelectionSort",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ShellSort",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt10SortingAlgorithms.ShellSort",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem1",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt2RecursionAndBackTracking.Problem1",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem2",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt2RecursionAndBackTracking.Problem2",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem4",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt2RecursionAndBackTracking.Problem4",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "problem3",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt2RecursionAndBackTracking.problem3",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "postFixEval",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt4Stacks.postFixEval",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Problem7",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt7BinaryHeapsPriorityQs.Problem7",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "DataAndAlgoL.Chpt9GraphAlgorithms.Graph",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum_1",
+            "request": "launch",
+            "mainClass": "Grind169.Arrays.TwoSum_1",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "BalancedBinaryTree_110",
+            "request": "launch",
+            "mainClass": "Grind169.BinaryTrees.BalancedBinaryTree_110",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "InvertBinaryTree_226",
+            "request": "launch",
+            "mainClass": "Grind169.BinaryTrees.InvertBinaryTree_226",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "MaxDepthBinaryTree_104",
+            "request": "launch",
+            "mainClass": "Grind169.BinaryTrees.MaxDepthBinaryTree_104",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "KclosestPointsToOrigin_973",
+            "request": "launch",
+            "mainClass": "Grind169.Heaps.KclosestPointsToOrigin_973",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "TaskScheduler_621",
+            "request": "launch",
+            "mainClass": "Grind169.Heaps.TaskScheduler_621",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "TopKFrequentWords_692",
+            "request": "launch",
+            "mainClass": "Grind169.Heaps.TopKFrequentWords_692",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCycle_141",
+            "request": "launch",
+            "mainClass": "Grind169.LinkedLists.LinkedListCycle_141",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Merge2SortedLists_21",
+            "request": "launch",
+            "mainClass": "Grind169.LinkedLists.Merge2SortedLists_21",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "MidOfLinkedList_876",
+            "request": "launch",
+            "mainClass": "Grind169.LinkedLists.MidOfLinkedList_876",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeLinkedList_234",
+            "request": "launch",
+            "mainClass": "Grind169.LinkedLists.PalindromeLinkedList_234",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "RemoveNthNodeFromEndList_19",
+            "request": "launch",
+            "mainClass": "Grind169.LinkedLists.RemoveNthNodeFromEndList_19",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedList_206",
+            "request": "launch",
+            "mainClass": "Grind169.LinkedLists.ReverseLinkedList_206",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "SwapNodesInPairs_24",
+            "request": "launch",
+            "mainClass": "Grind169.LinkedLists.SwapNodesInPairs_24",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "BackSpaceStringCompare_844",
+            "request": "launch",
+            "mainClass": "Grind169.Stacks.BackSpaceStringCompare_844",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ReversePolishNotation_150",
+            "request": "launch",
+            "mainClass": "Grind169.Stacks.ReversePolishNotation_150",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Add2Nums",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Add2Nums",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "AddBinary",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.AddBinary",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.ClimbingStairs",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ConcatenationArr",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.ConcatenationArr",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "FindPeakElementHigherThanElements",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.FindPeakElementHigherThanElements",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "InsertInterval",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.InsertInterval",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "KclosestPointsToOrigin_Lt973",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.KclosestPointsToOrigin_Lt973",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLastWord",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.LengthOfLastWord",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithoutRepetitions",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.LongestSubstringWithoutRepetitions",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt100",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Lt100",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt142",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Lt142",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt1470",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Lt1470",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt160",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Lt160",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt2011",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Lt2011",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt2469",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Lt2469",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Lt5",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Lt5",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortedArray",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.MergeSortedArray",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeroes_Lt283",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.MoveZeroes_Lt283",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.PlusOne",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne2",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.PlusOne2",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.ReverseLinkedList",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "RichestCustomerWealth",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.RichestCustomerWealth",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "RunninSum",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.RunninSum",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.SearchInsertPosition",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "Sqrt",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.Sqrt",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "SquaresOfSortedArray_Lt977",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.SquaresOfSortedArray_Lt977",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "longestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.longestCommonPrefix",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "palindromeNum",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.palindromeNum",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "removeDupsSorted2",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.removeDupsSorted2",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "removeDupsSortedArray",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.removeDupsSortedArray",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "removeElements",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.removeElements",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.reverseString",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "romanToInt",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.romanToInt",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        },
+        {
+            "type": "java",
+            "name": "validParenthesis",
+            "request": "launch",
+            "mainClass": "LeetcodeV1.validParenthesis",
+            "projectName": "Java-DataStructs-Algorithms-LeetCode_440ceacd"
+        }
+    ]
+}

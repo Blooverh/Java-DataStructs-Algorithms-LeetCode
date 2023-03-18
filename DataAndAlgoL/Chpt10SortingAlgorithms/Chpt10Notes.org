@@ -88,3 +88,33 @@
             *** 4. Recursively repeat the algorithm for both halves of the original array 
             
     ** HEAP SORT
+        *** Uses binary heaps, first adds all the elements to a heap and then removes the largest elements successively to obtain a sorted list
+        *** HEAP -> complete binary tree and each node is greater or equal to any of its children 
+        *** A heap can be sorted in an ArrayList if size is not known or in an Array if heap size if known in advance 
+        *** left child of a node is at 2i+1 of current node
+        *** right child of a node is at 2i+2 of current node 
+        *** Parent of a node is at (i-1)/2 position. 
+        ** Adding a new node to the heap
+            *** first add it to the end of the heap then rebuild tree
+            #+begin_src: JAVA psudocode
+                last node = current node 
+                while( current node is > than its parent){
+                    swap current node with its parent 
+                    # now current node is one level up 
+                }
+            #+end_src
+        ** Removing the root 
+            *** Often we need to remove the max element, which is the root in a heap
+            *** After a root is removed we must rebuild the tree to maintain the heap property
+            #+begin_src Java Algorithm pseudocode 
+                move last node to replace the root 
+                let root be the current node 
+                while(current node has children and current npde is < than one of the children){
+                    swap current node with the larger child 
+                    # now current node is one level down 
+                }
+            #+end_src
+
+        ** Heap sort algorithm
+            *** Complexity:
+                
