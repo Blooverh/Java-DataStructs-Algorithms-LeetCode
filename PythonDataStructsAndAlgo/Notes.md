@@ -18,4 +18,13 @@
 > Many common behaviors of an OS such as copying a directory or deleting a directory, are implemented using recursive algorithms.
 
 > ### Python OS module
-    > * *os module* 
+    > * *os module* -> provides robust tools for interacting with the operating system during execution of a program.
+>> os.path.getsize(path) - return imemediate disk usage (measure in bytes) for the file or directory that is identified by the string *path* (eg. /user/rt/courses). 
+
+>> os.path.isdir(path) - return True if entry designated by string path is a directory; False otherwise.
+
+>> os.listdir(path) -Return a list of strings that are names of all entries within a directory designated by string *path*
+
+>> os.path.join(path, filename) - Compose a path string name and filename string using an appropriate operating system separator between the two ("/" or "\\\"). Returning the string that represents the full path to the file.
+
+> Linear recursion - if a recursive function is designed so that each invocation of the body makes at most one new recursive call, this is known as linear recursion.
