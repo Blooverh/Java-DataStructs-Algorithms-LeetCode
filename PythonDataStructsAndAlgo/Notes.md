@@ -28,3 +28,16 @@
 >> os.path.join(path, filename) - Compose a path string name and filename string using an appropriate operating system separator between the two ("/" or "\\\"). Returning the string that represents the full path to the file.
 
 > Linear recursion - if a recursive function is designed so that each invocation of the body makes at most one new recursive call, this is known as linear recursion.
+
+> Multiple Recursion - process in which a function may take more than 2 recursive calls.
+
+### Defining Recursive Algorithms 
+
+>Test for base cases - there should be at least 1 base case. These base cases should be defined so that every possible chain of recursive calls will eventually reach a base case, and the handling of each base case.
+
+>Recur - If not a base case, we perform one or more recursive calls. This recursive step may involve a test that decides which of several possible  recursive calls to make. We should define each possible recursive call so that it makes progress torwards a base case.
+
+#### Parameterizing a recursion
+> To design a good algorithm, it is useful to think of the different ways we might define the subproblems that have the same general structure as the original problem.
+
+>Tail recursion - if any recursive call that is made from one context is the very last operation in that context, with the return value of the recursive call immediately returned by enclosing recursion.
