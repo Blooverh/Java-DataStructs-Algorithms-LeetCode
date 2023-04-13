@@ -41,3 +41,9 @@
 > To design a good algorithm, it is useful to think of the different ways we might define the subproblems that have the same general structure as the original problem.
 
 >Tail recursion - if any recursive call that is made from one context is the very last operation in that context, with the return value of the recursive call immediately returned by enclosing recursion.
+
+# Array-Base Sequences
+> list, tuple and str classes have in common the support of indexing to access individual elements of a sequence, and each uses a low-level concept known as an array to represent that sequence.
+
+> * *Shallow copy* - an array copy of another array that references the same elements as in the first list.
+> * With 
