@@ -5,7 +5,7 @@ def isPalindrome(str):
 
     if str[0] != str[-1]:
         return False
-    
+    print(str)
     return isPalindrome(str[1:-1])
     
 print(isPalindrome('racecar'))
