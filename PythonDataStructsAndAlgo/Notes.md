@@ -46,4 +46,10 @@
 > list, tuple and str classes have in common the support of indexing to access individual elements of a sequence, and each uses a low-level concept known as an array to represent that sequence.
 
 > * *Shallow copy* - an array copy of another array that references the same elements as in the first list.
-> * With 
+> * With Immutable elements, shallow copies are moot.
+
+> * *deep copy* - a copy of the original list but all elements have a different reference.
+
+> This can be done from the copy module using the deepcopy() function.
+
+> To produce an array of 8 elements with a value 0 we can do: counters= [0] *8, meaning all the cells in the list reference to the same object "0"
