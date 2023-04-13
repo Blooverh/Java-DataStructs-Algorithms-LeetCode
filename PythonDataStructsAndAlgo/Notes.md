@@ -53,3 +53,4 @@
 > This can be done from the copy module using the deepcopy() function.
 
 > To produce an array of 8 elements with a value 0 we can do: counters= [0] *8, meaning all the cells in the list reference to the same object "0"
+
