@@ -45,6 +45,8 @@
 # Array-Base Sequences
 > list, tuple and str classes have in common the support of indexing to access individual elements of a sequence, and each uses a low-level concept known as an array to represent that sequence.
 
+>Encapsulation > privating the internal details of the class from outside user's who do not need to know how the class is implemented.
+
 > * *Shallow copy* - an array copy of another array that references the same elements as in the first list.
 > * With Immutable elements, shallow copies are moot.
 
@@ -54,3 +56,15 @@
 
 > To produce an array of 8 elements with a value 0 we can do: counters= [0] *8, meaning all the cells in the list reference to the same object "0"
 
+>Strings are represented as an array of characters and not an array of references. -> This is called a *Compact Array*, because the array is storing the bits that represent each character in the case of strings.
+>> Advantages:
+- overall memory usage will be much lower for a compact structure because there is no overhead (extra memory assigned just in case) devoted to the explicit storage of the sequence of memory references. 
+- A referential strucutre will tipically use 64-bits for the memory address stored in the array, on top of whatever number of bits are used to represent the object that is considered the element.
+- Also, each UNICODE character stored in a compact array within a string tipically requires 2 bytes. If each character were stored independentely as one-character string, there would be significantly more memory (bytes) used.
+
+>How to declare an array in Python using Array module 
+- primes= array('i',[2,3,4,5,6,7,8]) --- *i* > is a type code that designates the array as an array of signed integers, typically represented using at least 16-bits each integer.
+- The *typecode* allows the interpreter to determine precisely how many bits are needed per element of the array.
+- *Array module does not provide support for making compact arrays of user-defined data types*  
+-- Example: stacks, queues, trees, linked lists, graphs, Hashmaps etc... This are not built in python data types.
+> DATA TYPE Table in the book on page 191 
