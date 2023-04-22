@@ -68,3 +68,8 @@
 - *Array module does not provide support for making compact arrays of user-defined data types*  
 -- Example: stacks, queues, trees, linked lists, graphs, Hashmaps etc... This are not built in python data types.
 > DATA TYPE Table in the book on page 191 
+
+>The array module does not provide support for making compact arrays of user-defined data types. Compact arrays of such structures can be created with the lower-level support of a module named ctypes.
+
+### Dynamic Arrays and Amortization 
+>  When creating a low-level array in a computer system, the precise size of that array must be explicitly declared in order for the System to properly allocate a consecutive piece of memory for its storage.
