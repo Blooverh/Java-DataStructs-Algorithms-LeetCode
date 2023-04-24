@@ -73,3 +73,13 @@
 
 ### Dynamic Arrays and Amortization 
 >  When creating a low-level array in a computer system, the precise size of that array must be explicitly declared in order for the System to properly allocate a consecutive piece of memory for its storage.
+
+> Because the system might dedicate neighboring memory locations to store other data, the capacity of an array cannot trivially be increased by expanding into subsequent cells. In Python tuple and str instances, this constraint is not a problem. The instances of these classes (tuple and str) are immutable (not possible to modify), so the correct size for an underlying array can be fixed when the object is instantiated.
+
+> *Python's list class* presents a more insteresting abstractions. Although a list has a particular length when constructed, the class allows us to add elements to the list, with no apparent limit on the overall capacity of the list. To provide this abstraction, Python relies on *dynamic array* algorithm. 
+
+> Because a list is a referential structure, the result of getsizeof function for a list instance only includes the size for representing its primary structure; does not account for memory used by the objects that are elements of the list. Meaning each object at ith position in the array has its own memory size along with the memory size of its reference in the array.
+
+#### Implementing a dynamic array
+>  The key is to provide means to grow the Array A that stores all the elements of a list. When an array is full and we append an element to the list we have to create a new array and copy the elements of previous array to the new array
+>> A common used rule is for the new array to have twice the capacity of the existing array.
