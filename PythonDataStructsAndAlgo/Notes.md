@@ -18,7 +18,7 @@
 > Many common behaviors of an OS such as copying a directory or deleting a directory, are implemented using recursive algorithms.
 
 > ### Python OS module
-    > * *os module* -> provides robust tools for interacting with the operating system during execution of a program.
+    >* *os module* -> provides robust tools for interacting with the operating system during execution of a program.
 >> os.path.getsize(path) - return imemediate disk usage (measure in bytes) for the file or directory that is identified by the string *path* (eg. /user/rt/courses). 
 
 >> os.path.isdir(path) - return True if entry designated by string path is a directory; False otherwise.
@@ -100,3 +100,37 @@
 > *Nonmuttating* behaviors of the list class are precisely those that are supported by the tuple class, since tuples are immutable (non changeable)
 
 > Tuples are more memory efficient than lists because they are immutable; thus, there is no need for an underlying dynamic array with surplus capacity.
+
+### Lexicographic Comparisons 
+
+> Comparisons between 2 sequences are defined lexicographically.
+
+> In worst case, evaluating such a condition requires an iteration taking time proportional to the length of the shorter of the 2 arrays, because when 1 sequences ends, the lexicographic result can be determined 
+>> Example: [7,3,...] < [7,5,...] This returns true because the second element of the second array is bigger than the second elements of the first array; Therefore not needing to go through the rest of the list
+
+### Removing elements from a list 
+
+> list class offers several ways to remove an element from a list:
+>> pop() removes the last element from a list. This is most efficient because all other elements remain in their original location. This is efficiently an O(1) operation, but the bound is amortized because Python will occasionally shrink the underlying dynamic array to conserve memory.
+
+>> pop(k) removes the element k that is at index k < n of a list (k index). Shifting all remaining elements after to the left to fill the gap that resulted from the pop of the element at position k. Efficiency of this operation is O(n-k) still constant.  The most expensive call using pop() would be pop(0) since we have to shift every element in the list to the left to fill in the gaps from the removal of the 0 index.
+
+>> remove() -> which removes the specified value that should be removed rather than pop() which removes the element at index k by using the index instead of the value.
+
+### Extending a list
+
+> Python provides a method called extend() that is used tp add all elements of 1 list to the end of a 2nd list. 
+
+### Constructing New Lists 
+
+> *list comprehension* example: squares=[k*k for k in range(1, n+1)] which is the same as:
+
+    squares=[]
+    for k in range(1, n+1):
+        squares.append(k*k)
+
+## Python's String class 
+
+> The analysis for many behaviors is quite intuitive. Methods that produce a new string require time that is linear in the length of the string that is produced, since a string is an array of characters.
+
+> Many of the behaviours that test boolean conditions of a string take O(n) time, examining all n characters in the worst case, but short circuiting as soon as the answer becomes evident. Such as checking if string is lower character and the first character is upper cased which gives automatically the reuslt False.
