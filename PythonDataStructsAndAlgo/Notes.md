@@ -83,3 +83,20 @@
 #### Implementing a dynamic array
 >  The key is to provide means to grow the Array A that stores all the elements of a list. When an array is full and we append an element to the list we have to create a new array and copy the elements of previous array to the new array
 >> A common used rule is for the new array to have twice the capacity of the existing array.
+
+### Amortize Analysis of dynamic arrays
+
+> Amortization -> we can show that performing a sequence of such append operations on a dynamic array is actually efficient. To perform an *amortized analysis* we use an accounting technique where we view the computer as a coin operated appliance that requires the payment of 1 cyber-dollar for a constant amount of computing time. 
+
+> Using a *fixed* increment for each resize of the array, and thus an arithmatic progression of intermidiate array sizes, results in an overall time that is quadratic in the number of operations.
+
+### Memory Usage and Shrinking the an array
+
+> Another consequence of the rule of a geometric increase in capacity when appending to a dynamic array is that the final array size is guranteed to be proportional to the overall number of elements. That is, the data structure uses O(n) memory which is very desirable property for a data structure.
+
+## Efficiency of Python's Sequence types 
+### Python's List and Tuple class
+
+> *Nonmuttating* behaviors of the list class are precisely those that are supported by the tuple class, since tuples are immutable (non changeable)
+
+> Tuples are more memory efficient than lists because they are immutable; thus, there is no need for an underlying dynamic array with surplus capacity.
