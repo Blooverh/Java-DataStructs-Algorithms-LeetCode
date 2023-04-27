@@ -134,3 +134,12 @@
 > The analysis for many behaviors is quite intuitive. Methods that produce a new string require time that is linear in the length of the string that is produced, since a string is an array of characters.
 
 > Many of the behaviours that test boolean conditions of a string take O(n) time, examining all n characters in the worst case, but short circuiting as soon as the answer becomes evident. Such as checking if string is lower character and the first character is upper cased which gives automatically the reuslt False.
+
+### Insertion Sort
+> Explanation: Starting with the first element in the array, because one element by itself is already sorted we go to the next element. If the second element is smaller than the first one we swap both elements in the array. Next we consider a third element, we swap it leftwards by comparison with the previous elements until the 3rd element is in the correct position. Then we do the same for the next ones.
+>Example
+    Input: An array A of n comparable elements 
+    Output: The array A with elements rearranged in nondecreasing order (ascending order)
+
+    for k from 1 to n-1 do
+        Insert A[k] at its proper location within A[0], A[1],..., A[k]
