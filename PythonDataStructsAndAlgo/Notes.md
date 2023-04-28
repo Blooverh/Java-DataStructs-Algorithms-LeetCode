@@ -144,4 +144,19 @@
     for k from 1 to n-1 do
         Insert A[k] at its proper location within A[0], A[1],..., A[k]
 
-### Simple cryptography 
+### Using Characters as Array Indices
+
+> Example A=0, B=1 etc.. So When writing a Ceaser Cipher Algorithm, we apply the rotation of r as a simple formula. Replace each letter i with the letter (i+r) mode 26 which returns the remainder after performing an integer division.
+
+> In Python characters are represented in UNICODE by integer code points, and the code points for the uppercase letters are consecutive, thus for simplicity we restrict the encryption to used only uppercase letters.
+
+> Function to retrive the UNICODE Integer value in python is *ord(c)* which takes a parameter character c and returns the integer value associated with it.
+
+>Function to retrive a one character string from a UNICODE integer is *chr(j)* where j is an integer value that will return the one character string.
+
+### Multi dimensional data sets
+
+> 2-D arrays can be also called matrices.
+
+> *A common representation for a 2-D list in Python is a list of lists*
+>> Example: data=[[22,18,709,5,33], [45,32,830,120,750], [4,880,45,66,61]] which is a matrix of 3 x 4 3 rows, and 4 columns
