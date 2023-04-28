@@ -159,4 +159,4 @@
 > 2-D arrays can be also called matrices.
 
 > *A common representation for a 2-D list in Python is a list of lists*
->> Example: data=[[22,18,709,5,33], [45,32,830,120,750], [4,880,45,66,61]] which is a matrix of 3 x 4 3 rows, and 4 columns
+>> Example: data=[[22,18,709,5,33], [45,32,830,120,750], [4,880,45,66,61]] which is a matrix of 3 x 4 3 rows, and 4 columns. Meaning data[1][3] is the number 
